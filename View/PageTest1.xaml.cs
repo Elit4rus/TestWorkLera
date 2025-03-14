@@ -42,7 +42,7 @@ namespace TestWork.View
 
         private void p3_Click(object sender, RoutedEventArgs e)
         {
-            if (ChB1.IsChecked == false && ChB2.IsChecked == false && ChB3.IsChecked == false && ChB4.IsChecked == false && ChB5.IsChecked == false) 
+            if (ChB1.IsChecked == false && ChB2.IsChecked == false && ChB3.IsChecked == false && ChB4.IsChecked == false && ChB5.IsChecked == false)
             {
                 MessageBox.Show("правильно");
                 b = b + 1;
@@ -62,6 +62,69 @@ namespace TestWork.View
             else MessageBox.Show("неправильно");
             p1.Visibility = Visibility.Collapsed;
             products.SelectedItem = v2;
+        }
+
+
+        private void p4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+
+        private void p6_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p8_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p8_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p9_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p9_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p9_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void p10_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
